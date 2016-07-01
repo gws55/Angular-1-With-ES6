@@ -5,6 +5,7 @@ class FruitController
 		this.updateFruit = {};
 		this.fruitService = fruitService;
 
+		loadingToggleOn();
 		this.renderTable();
 	}
 
