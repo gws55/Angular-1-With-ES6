@@ -100,6 +100,9 @@ class FruitController
 		}
 	}
 
+	hi() {
+		console.log('Andrew was here');
+	}
 };
 
 export default FruitController;
