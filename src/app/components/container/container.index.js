@@ -1,2 +1,4 @@
+import ContainerDirective from './container.directive';
+
 angular.module('App')
-.directive('container', require('./container.directive'));
+	.directive('container', () => new ContainerDirective());

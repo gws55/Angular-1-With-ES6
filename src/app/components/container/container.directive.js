@@ -1,5 +1,14 @@
-module.exports = function ContainerDirective() {
-	return {
-		templateUrl: './app/components/container/container.html'
-	};
+class ContainerDirective 
+{
+	constructor() {
+		this.templateUrl = './app/components/container/container.html';
+	}
 }
+
+class ContainerDirectiveController {
+	constructor() {
+
+	}
+}
+
+export default ContainerDirective;

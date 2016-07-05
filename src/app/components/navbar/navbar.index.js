@@ -1,3 +1,4 @@
+import NavbarDirective from './navbar.directive';
+
 angular.module('App')
-.value('whichTab', "hello!")
-.directive('navbar', require('./navbar.directive'));
+	.directive('navbar', () => new NavbarDirective());
