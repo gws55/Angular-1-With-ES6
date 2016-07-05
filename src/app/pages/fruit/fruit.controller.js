@@ -13,9 +13,9 @@ class FruitController
 		this.fruitService.getFruitList()
 			.then((response) => {
 				this.fruitList = response.data;
-				loadingToggleOff();
 				$('#createModal').modal('hide');
 				$('#editModal').modal('hide');
+				loadingToggleOff();
 			});
 	}
 
