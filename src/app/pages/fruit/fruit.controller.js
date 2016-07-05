@@ -100,8 +100,8 @@ class FruitController
 		}
 	}
 
-	andrew() {
-		return 'banana'
+	hi() {
+		console.log('Andrew was here');
 	}
 
 };
