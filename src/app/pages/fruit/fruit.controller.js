@@ -100,6 +100,10 @@ class FruitController
 		}
 	}
 
+	andrew() {
+		return 'banana'
+	}
+
 };
 
 export default FruitController;
