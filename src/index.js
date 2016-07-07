@@ -2,7 +2,7 @@ var angular = require('angular');
 var ngRoute = require('angular-route');
 var ngResource = require('angular-resource');
 
-angular.module('App', [ngRoute, ngResource])
+angular.module('App', [ngRoute, ngResource]);
 
 // styles
 require('./assets/styles/main.css');
